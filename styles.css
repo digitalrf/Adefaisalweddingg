@@ -1,0 +1,171 @@
+/* BASE */
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+    background-image: url('./img/bg-body.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+@media screen and (max-width:500px){
+    body{
+        max-width: 500px;
+        background: none;
+    }
+}
+a{
+    text-decoration: none;
+}
+/* BASE */
+
+/* ADDED VARIABLES */
+.object-fit-cover{
+    object-fit: cover;
+}
+.object-position-top-center{
+    object-position: top center;
+}
+.fw-medium{
+    font-weight: 500;
+}
+.markazi{
+    font-family: 'Markazi Text', serif;
+}
+.text-white-main{
+    color: #f5f5f5;
+}
+.bg-white-main{
+    background-color: #f5f5f5;
+}
+.text-black-main{
+    color: #333;
+}
+.bg-black-main{
+    background-color: #333;
+}
+.text-grey-main{
+    color: #C8CCD0;
+}
+.bg-grey-main{
+    background-color: #C8CCD0;
+}
+.fs-10{
+    font-size: 10px;
+}
+.fs-12{
+    font-size: 12px;
+}
+.fs-14{
+    font-size: 12px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-22{
+    font-size: 22px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-32{
+    font-size: 32px;
+}
+.fs-48{
+    font-size: 48px;
+}
+.fs-64{
+    font-size: 64px;
+}
+.ls-1{
+    letter-spacing: 1px;
+}
+.lh-23{
+    line-height: 23px
+}
+.w-fit-content{
+    width: fit-content;
+}
+.c-pointer{
+    cursor: pointer;
+}
+/* ADDED VARIABLES */
+
+/* COVER */
+.cover-container{
+    z-index: 3;
+    transition: 1s;
+    max-width: 500px;
+}
+.cover-container .cover-head-container button{
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+/* COVER */
+
+/* MAIN */
+main{
+    max-width: 500px;
+    margin: auto; 
+    padding-bottom: 92px;
+    overflow-x: hidden;
+}
+.home-container{
+    padding-top: 75px;
+}
+.home-container .card{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 4px 4px 0px rgba(51, 51, 51, 0.25);
+    padding: 25px;
+}
+.calendar-container .card{
+    padding: 30px 50px;
+    max-width: 470px;
+}
+.calendar-container .card .title{
+    letter-spacing: 1.4px;
+}
+.calendar-container .card .subtitle{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.calendar-container .card .subtitle p{
+    padding: 0 5px;
+}
+.calendar-container .card .content{
+    margin-bottom: 12px;
+}
+.calendar-container .card a{
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 48px;
+    padding: 10px 25px;
+    width: fit-content;
+}
+/* MAIN */
+
+/* FOOTER */
+footer{
+    padding: 10px 0;
+    z-index: 2 !important;
+    max-width: 500px;
+    margin: auto;
+}
+footer a{
+    margin: 0 25px;
+}
+/* FOOTER */
+
